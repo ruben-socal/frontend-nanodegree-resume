@@ -1,7 +1,6 @@
 //var awesomeThoughts = "My name is Ruben and I am AWESOME!";
 //var funThoughts = awesomeThoughts.replace("AWESOME!","FUN");
 //$("#main").append(funThoughts);
-
 var bio = {
     "name": "Ruben Mendez",
     "role": "Front End Web Developer",
@@ -50,7 +49,7 @@ var education = {
 
 };
 
- var work = {
+var work = {
     "jobs": [{
         "employer": "Talley Inc",
         "title": "Database Administrator",
@@ -116,12 +115,12 @@ bio.display = function() {
     }
 
     // Display footer contacts using bio data
-     $("#footerContacts").append(formattedMobile);
-     $("#footerContacts").append(formattedEmail);
-     $("#footerContacts").append(formattedGithub);
-     $("#footerContacts").append(formattedTwitter);
-     $("#footerContacts").append(formattedLocation);
-}
+    $("#footerContacts").append(formattedMobile);
+    $("#footerContacts").append(formattedEmail);
+    $("#footerContacts").append(formattedGithub);
+    $("#footerContacts").append(formattedTwitter);
+    $("#footerContacts").append(formattedLocation);
+};
 
 bio.display();
 
@@ -144,7 +143,7 @@ work.display = function() {
 
     }
 
-}
+};
 
 work.display();
 
@@ -181,7 +180,7 @@ education.display = function() {
         $(".education-entry:last").append(formattedOnlineUrl);
     }
 
-}
+};
 
 education.display();
 
@@ -202,7 +201,7 @@ projects.display = function() {
             $(".project-entry:last").append(formattedProjectImages);
         }
     }
-}
+};
 
 projects.display();
 
